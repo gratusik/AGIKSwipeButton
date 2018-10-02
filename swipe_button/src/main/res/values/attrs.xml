@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SwipeButtonView">
+        <attr name="sb_swipe_bg_color" format="color" />
+        <attr name="sb_thumb_bg_color" format="color" />
+        <attr name="sb_stroke_bg_color" format="color" />
+        <attr name="sb_thumb_image" format="reference" />
+        <attr name="sb_swipe_text" format="string" />
+        <attr name="sb_swipe_text_color" format="color" />
+        <attr name="sb_swipe_animate_text" format="boolean" />
+        <attr name="sb_swipe_text_size" format="dimension" />
+        <attr name="sb_swipe_reverse" format="boolean" />
+        <attr name="sb_swipe_both_direction" format="boolean" />
+    </declare-styleable>
+</resources>
