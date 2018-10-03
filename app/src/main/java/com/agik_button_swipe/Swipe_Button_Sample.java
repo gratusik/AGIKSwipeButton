@@ -7,6 +7,10 @@ import android.os.Bundle;
 import com.agik.swipe_button.Controller.OnSwipeCompleteListener;
 import com.agik.swipe_button.View.Swipe_Button_View;
 
+/**
+ * Created by Gratus on 02/10/18.
+ */
+
 public class Swipe_Button_Sample extends AppCompatActivity {
     private Swipe_Button_View start,stop,start_stop;
     @Override

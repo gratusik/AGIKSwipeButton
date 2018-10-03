@@ -9,6 +9,10 @@ import android.view.MotionEvent;
 
 import com.agik.swipe_button.View.Swipe_Button_View;
 
+/**
+ * Created by Gratus on 02/10/18.
+ */
+
 public class Swipe_Button_Controller extends AppCompatSeekBar {
 
     private Drawable thumb;

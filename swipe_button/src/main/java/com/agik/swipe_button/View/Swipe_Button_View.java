@@ -23,6 +23,10 @@ import static com.agik.swipe_button.Util.Dimension_Util.spToPx;
 import static com.agik.swipe_button.Util.Drawable_Color_Util.setDrawableColor;
 import static com.agik.swipe_button.Util.Drawable_Color_Util.setDrawableStroke;
 
+/**
+ * Created by Gratus on 02/10/18.
+ */
+
 public class Swipe_Button_View extends RelativeLayout implements SeekBar.OnSeekBarChangeListener {
 
     protected Swipe_Button_Controller swipe_button_controller;
