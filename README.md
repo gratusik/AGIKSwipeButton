@@ -5,6 +5,7 @@ Swipe button with both direction function
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/gratusik/AGIKButtonSwipe/blob/master/LICENSE)
 [![Min SDK](https://img.shields.io/badge/Min%20SDK-15-e91e63.svg)](https://developer.android.com/about/versions/android-4.0.3)
 # License
+```
 MIT License
 
 Copyright (c) 2018 gratusik
@@ -26,3 +27,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
