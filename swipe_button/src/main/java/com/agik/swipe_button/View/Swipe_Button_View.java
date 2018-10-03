@@ -40,9 +40,8 @@ public class Swipe_Button_View extends RelativeLayout implements SeekBar.OnSeekB
     public boolean swipe_both_direction = false;
     protected float swipeTextSize = spToPx(16, getContext());
     protected String swipeText;
-    protected ColorStateList swipeTextColor;
     protected boolean animateSwipeText;
-    protected int ThumbImageId,swipe_thumb_bg_color,swipe_bg_color;
+    protected int ThumbImageId,swipe_thumb_bg_color,swipe_bg_color,swipeTextColor;
     
     public Swipe_Button_View(Context context) {
         super(context);
@@ -112,12 +111,12 @@ public class Swipe_Button_View extends RelativeLayout implements SeekBar.OnSeekB
         swipe_both_direction = attributes.getBoolean(R.styleable.SwipeButtonView_sb_swipe_both_direction, false);
 
         swipeText = attributes.getString(R.styleable.SwipeButtonView_sb_swipe_text);
-        swipeTextColor = attributes.getColorStateList(R.styleable.SwipeButtonView_sb_swipe_text_color);
+        swipeTextColor = attributes.getColor(R.styleable.SwipeButtonView_sb_swipe_text_color, ContextCompat.getColor(getContext(), R.color.sb_text_color_default));
         animateSwipeText = attributes.getBoolean(R.styleable.SwipeButtonView_sb_swipe_animate_text, true);
         swipeTextSize = attributes.getDimension(R.styleable.SwipeButtonView_sb_swipe_text_size, swipeTextSize);
         swipeTextView.setTextSize(TypedValue.COMPLEX_UNIT_PX, swipeTextSize);
         setText(swipeText);
-        setTextColor(swipeTextColor == null ? swipeTextView.getTextColors() : swipeTextColor);
+        setTextColor(swipeTextColor);
 
         ThumbImageId = attributes.getResourceId(R.styleable.SwipeButtonView_sb_thumb_image, R.drawable.ic_forward);
         setThumbImage(ContextCompat.getDrawable(getContext(), ThumbImageId));
