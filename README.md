@@ -5,7 +5,7 @@ Swipe button with both direction function for android
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/gratusik/AGIKButtonSwipe/blob/master/LICENSE)
 [![Min SDK](https://img.shields.io/badge/Min%20SDK-15-e91e63.svg)](https://developer.android.com/about/versions/android-4.0.3)
 
-![](https://raw.githubusercontent.com/gratusik/AGIKButtonSwipe/master/Demo.gif)
+![](https://raw.githubusercontent.com/gratusik/AGIKButtonSwipe/master/demo.gif)
 
 # Gradle
 The library is hosted on jitpack, add this to your build.gradle:
