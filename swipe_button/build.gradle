@@ -1,6 +1,35 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
 group = 'com.github.gratusik'
+version = '1.0.1'
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'AGIKButtonSwipe'
+
+    publishedGroupId = 'com.github.gratusik'
+    libraryName = 'AGIKButtonSwipe'
+    artifact = 'AGIKButtonSwipe'
+
+    libraryDescription = 'This view is a container that supports diagonal scroll and fling gesture. It is based on AOSP HorizontalScrollView.'
+
+    siteUrl = 'https://github.com/gratusik/AGIKButtonSwipe'
+    gitUrl = 'https://github.com/gratusik/AGIKButtonSwipe.git'
+
+    libraryVersion = '1.0.1'
+
+    developerId = 'gratusik'
+    developerName = 'Gratus'
+    developerEmail = 'agratus@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+    licenseName = 'The MIT License (MIT)'
+    licenseUrl = 'https://opensource.org/licenses/MIT'
+    allLicenses = ["MIT"]
+}
 
 android {
     compileSdkVersion 28
@@ -34,3 +63,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+
+apply from: 'https://raw.githubusercontent.com/gratusik/JCenter/master/bintrayscript.gradle'
