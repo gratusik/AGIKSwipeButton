@@ -94,7 +94,11 @@ dependencies {
  // set the swipe background color
   public void setSwipeBackgroundColor(int color)
 ```
-	
+
+## Contributing
+
+Contributions are welcome, feel free to submit a pull request.
+
 # License
 
 ```
