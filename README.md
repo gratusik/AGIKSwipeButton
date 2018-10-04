@@ -58,7 +58,7 @@ dependencies {
 
 # Attribute information
 
-```
+
 |Attribute name|Default value|
 |:-:|:-:|
 |sb_swipe_bg_color| Green |
@@ -71,22 +71,8 @@ dependencies {
 |sb_swipe_text_size| 16dp |
 |sb_swipe_reverse| False |
 |sb_swipe_both_direction| False |
-```
 
-```
-|Attribute name|Default value|
-|:-:|:-:|
-|sb_swipe_bg_color| Green |
-|buttonBackgroundColor|The slide button background color| `#FFFFFF`|
-|slideTextColor|The color of the slide label |`#FFFFFF`|
-|buttonImage|The drawable on the button | double chevron icon |
-|slideText|The slide label| `none` |
-|slideTextSize|The label's size| 16sp |
-|animateSlideText|If `true`, the label fades out while the slide is in progress| `true` |
-|strokeColor|If set, a stroke is drawn around the slide background | `none` |
-|reverseSlide|If `true`, the SlideView is reversed | `false` |
-|buttonImageDisabled| The drawable to be used as the button image when the SlideView is disabled| the default drawable|
-```
+
 # Reconfiguration method programmatically
 
 ```
