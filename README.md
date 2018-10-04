@@ -73,8 +73,8 @@ dependencies {
 |sb_swipe_both_direction| False |
 ```
 
-|Attribute name|Description|Default value|
-|:-:|:-:|:-:|
+|Attribute name|Default value|
+|:-:|:-:|
 |slideBackgroundColor|The slide background color| `#3F51B5` |
 |buttonBackgroundColor|The slide button background color| `#FFFFFF`|
 |slideTextColor|The color of the slide label |`#FFFFFF`|
