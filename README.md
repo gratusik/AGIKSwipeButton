@@ -75,7 +75,7 @@ dependencies {
 
 |Attribute name|Default value|
 |:-:|:-:|
-|slideBackgroundColor|The slide background color| `#3F51B5` |
+|sb_swipe_bg_color| Green |
 |buttonBackgroundColor|The slide button background color| `#FFFFFF`|
 |slideTextColor|The color of the slide label |`#FFFFFF`|
 |buttonImage|The drawable on the button | double chevron icon |
