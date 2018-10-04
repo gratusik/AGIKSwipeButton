@@ -58,7 +58,6 @@ dependencies {
 
 # Attribute information
 
-```
 |Attribute name|Default value|
 |:-:|:-:|:-:|
 |sb_swipe_bg_color| Green |
@@ -71,7 +70,7 @@ dependencies {
 |sb_swipe_text_size| 16dp |
 |sb_swipe_reverse| False |
 |sb_swipe_both_direction| False |
-````
+
 
 # Reconfiguration method programmatically
 
