@@ -44,6 +44,8 @@ dependencies {
 
 NOTE: 
 1. IF FOWARD == TRUE(default):
+```
+   start.setOnSwipeCompleteListener_forward_reverse(new OnSwipeCompleteListener() {
 	 @Override
             public void onSwipe_Forward(Swipe_Button_View swipeView) {
 
@@ -52,7 +54,11 @@ NOTE:
             public void onSwipe_Reverse(Swipe_Button_View swipeView) {
 		//inactive function
             }
+    });
+```
 2. IF Reverse  == TRUE:
+```
+  start.setOnSwipeCompleteListener_forward_reverse(new OnSwipeCompleteListener() {
  	@Override
             public void onSwipe_Forward(Swipe_Button_View swipeView) {
 		//inactive function
@@ -61,7 +67,11 @@ NOTE:
             public void onSwipe_Reverse(Swipe_Button_View swipeView) {
 
             }
+   });
+```
 2. IF BOTH_DIRECTION == TRUE:
+```
+   start.setOnSwipeCompleteListener_forward_reverse(new OnSwipeCompleteListener() {
  	@Override
             public void onSwipe_Forward(Swipe_Button_View swipeView) {
 
@@ -70,19 +80,7 @@ NOTE:
             public void onSwipe_Reverse(Swipe_Button_View swipeView) {
 
             }
-
-```
-     start.setOnSwipeCompleteListener_forward_reverse(new OnSwipeCompleteListener() {
-            @Override
-            public void onSwipe_Forward(Swipe_Button_View swipeView) {
-
-            }
-
-            @Override
-            public void onSwipe_Reverse(Swipe_Button_View swipeView) {
-
-            }
-        });
+  });
 ```
 
 # Attribute information
