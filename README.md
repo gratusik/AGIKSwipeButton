@@ -64,7 +64,7 @@ dependencies {
 |sb_swipe_bg_color| Green |
 |sb_thumb_bg_color| white |
 |sb_stroke_bg_color| white |
-|sb_thumb_image| forward arrow |	
+|sb_thumb_image| forward arrow |
 |sb_swipe_text| text |
 |sb_swipe_text_color| white |
 |sb_swipe_animate_text| True |
