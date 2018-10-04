@@ -42,6 +42,35 @@ dependencies {
 
 # Listeners for swipe actions on the Swipe_Button_View
 
+NOTE: 
+1. IF FOWARD == TRUE(default):
+	 @Override
+            public void onSwipe_Forward(Swipe_Button_View swipeView) {
+
+            }
+	    @Override
+            public void onSwipe_Reverse(Swipe_Button_View swipeView) {
+		//inactive function
+            }
+2. IF Reverse  == TRUE:
+ 	@Override
+            public void onSwipe_Forward(Swipe_Button_View swipeView) {
+		//inactive function
+            }
+	@Override
+            public void onSwipe_Reverse(Swipe_Button_View swipeView) {
+
+            }
+2. IF BOTH_DIRECTION == TRUE:
+ 	@Override
+            public void onSwipe_Forward(Swipe_Button_View swipeView) {
+
+            }
+	@Override
+            public void onSwipe_Reverse(Swipe_Button_View swipeView) {
+
+            }
+
 ```
      start.setOnSwipeCompleteListener_forward_reverse(new OnSwipeCompleteListener() {
             @Override
