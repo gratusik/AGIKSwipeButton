@@ -23,7 +23,80 @@ dependencies {
 	}
 ```
 
+# Usage
+ Add `Swipe_Button_View` to your layout file, for example:
+ Basic implementation:
+```
+  <com.agik.swipe_button.View.Swipe_Button_View
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stop"
+        android:layout_marginTop="15dp"
+        app:sb_swipe_text="Start"
+        app:sb_swipe_animate_text="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        />
+```
+
+# Listeners for swipe actions on the Swipe_Button_View
+
+```
+     start.setOnSwipeCompleteListener_forward_reverse(new OnSwipeCompleteListener() {
+            @Override
+            public void onSwipe_Forward(Swipe_Button_View swipeView) {
+
+            }
+
+            @Override
+            public void onSwipe_Reverse(Swipe_Button_View swipeView) {
+
+            }
+        });
+```
+
+# Attribute information
+
+```
+|Attribute name|Default value|
+|:-:|:-:|:-:|
+|sb_swipe_bg_color| Green |
+|sb_thumb_bg_color| white |
+|sb_stroke_bg_color| white |
+|sb_thumb_image| forward arrow |	
+|sb_swipe_text| text |
+|sb_swipe_text_color| white |
+|sb_swipe_animate_text| True |
+|sb_swipe_text_size| 16dp |
+|sb_swipe_reverse| False |
+|sb_swipe_both_direction| False |
+````
+
+# Reconfiguration method programmatically
+
+```
+// set the label
+ setText(CharSequence text); 
+ 
+ // set the text size
+ setTextSize(int size);
+ 
+ // set the drawable for the button
+ setThumbImage(Drawable image);
+ 
+ // set the label color
+ setTextColor(@ColorInt int color) ;
+ 
+ // set the thumb background color
+ public void setThumbBackgroundColor(int color)
+ 
+ // set the swipe background color
+  public void setSwipeBackgroundColor(int color)
+```
+	
 # License
+
 ```
 MIT License
 
