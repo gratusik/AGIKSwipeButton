@@ -162,10 +162,6 @@ public class Swipe_Button_View extends RelativeLayout implements SeekBar.OnSeekB
         swipeTextView.setTextColor(color);
     }
 
-    public void setTextColor(ColorStateList colors) {
-        swipeTextView.setTextColor(colors);
-    }
-
     public void setText(CharSequence text) {
         swipeTextView.setText(text);
     }
