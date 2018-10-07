@@ -19,7 +19,7 @@ allprojects {
 ```
 ```
 dependencies {
-	        implementation 'com.github.gratusik:AGIKButtonSwipe:1.0.1'
+	        implementation 'com.github.gratusik:AGIKSwipeButton:1.0.1'
 	}
 ```
 
