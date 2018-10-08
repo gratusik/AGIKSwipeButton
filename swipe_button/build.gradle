@@ -4,17 +4,17 @@ apply plugin: 'com.jfrog.bintray'
 group = 'com.github.gratusik'
 version = '1.0.1'
 ext {
-    bintrayRepo = 'AGIKButtonSwipe'
-    bintrayName = 'AGIKButtonSwipe'
+    bintrayRepo = 'swipe_button'
+    bintrayName = 'com.github.gratusik.swipe_button'
 
     publishedGroupId = 'com.github.gratusik'
-    libraryName = 'AGIKButtonSwipe'
-    artifact = 'AGIKButtonSwipe'
+    libraryName = 'swipe_button'
+    artifact = 'swipe_button'
 
     libraryDescription = 'This view is a container that supports diagonal scroll and fling gesture. It is based on AOSP HorizontalScrollView.'
 
-    siteUrl = 'https://github.com/gratusik/AGIKButtonSwipe'
-    gitUrl = 'https://github.com/gratusik/AGIKButtonSwipe.git'
+    siteUrl = 'https://github.com/gratusik/AGIKSwipeButton'
+    gitUrl = 'https://github.com/gratusik/AGIKSwipeButton.git'
 
     libraryVersion = '1.0.1'
 
