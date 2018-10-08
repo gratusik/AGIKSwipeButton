@@ -1,4 +1,4 @@
-# AGIKButtonSwipe
+# AGIKSwipeButton
 Swipe button with both direction function for android
 
 [![](https://jitpack.io/v/gratusik/AGIKButtonSwipe.svg)](https://jitpack.io/#gratusik/AGIKButtonSwipe)
