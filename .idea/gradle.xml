@@ -8,8 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/AGIKSwipeButton" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/swipe_button" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

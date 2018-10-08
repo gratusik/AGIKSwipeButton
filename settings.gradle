@@ -1,1 +1,1 @@
-include ':app', ':AGIKSwipeButton'
+include ':app', ':swipe_button'
