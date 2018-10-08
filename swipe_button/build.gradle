@@ -1,11 +1,11 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
-group = 'com.github.gratusik'
+group = 'com.github.gratusik.swipe_button'
 version = '1.0.1'
 ext {
     bintrayRepo = 'swipe_button'
-        bintrayName = 'com.github.gratusik.swipe_button'
+    bintrayName = 'com.github.gratusik.swipe_button'
 
     publishedGroupId = 'com.github.gratusik'
     libraryName = 'swipe_button'
