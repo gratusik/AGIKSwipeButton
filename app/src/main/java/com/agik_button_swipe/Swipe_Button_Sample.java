@@ -4,8 +4,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.agik.swipe_button.Controller.OnSwipeCompleteListener;
-import com.agik.swipe_button.View.Swipe_Button_View;
+import com.agik.AGIKSwipeButton.Controller.OnSwipeCompleteListener;
+import com.agik.AGIKSwipeButton.View.Swipe_Button_View;
 
 /**
  * Created by Gratus on 02/10/18.

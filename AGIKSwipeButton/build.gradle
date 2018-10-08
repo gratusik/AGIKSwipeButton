@@ -1,0 +1,65 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+group = 'com.github.gratusik.swipe_button'
+version = '1.0.1'
+ext {
+    bintrayRepo = 'AGIKSwipeButton'
+    bintrayName = 'com.github.gratusik.AGIKSwipeButton'
+
+    publishedGroupId = 'com.github.gratusik'
+    libraryName = 'AGIKSwipeButton'
+    artifact = 'AGIKSwipeButton'
+
+    libraryDescription = 'This view is a container that supports diagonal scroll and fling gesture. It is based on AOSP HorizontalScrollView.'
+
+    siteUrl = 'https://github.com/gratusik/AGIKSwipeButton'
+    gitUrl = 'https://github.com/gratusik/AGIKSwipeButton.git'
+
+    libraryVersion = '1.0.1'
+
+    developerId = 'gratusik'
+    developerName = 'Gratus'
+    developerEmail = 'agratus@gmail.com'
+
+    licenseName = 'The MIT License (MIT)'
+    licenseUrl = 'https://opensource.org/licenses/MIT'
+    allLicenses = ["MIT"]
+}
+
+
+android {
+    compileSdkVersion 28
+
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+apply from: 'https://raw.githubusercontent.com/gratusik/JCenter/master/install.gradle'
+apply from: 'https://raw.githubusercontent.com/gratusik/JCenter/master/bintrayscript.gradle'
