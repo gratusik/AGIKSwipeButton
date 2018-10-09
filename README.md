@@ -3,7 +3,6 @@ Swipe button with both direction function for android
 
 [![](https://jitpack.io/v/gratusik/AGIKButtonSwipe.svg)](https://jitpack.io/#gratusik/AGIKButtonSwipe)
 [ ![Download](https://api.bintray.com/packages/gratusik/AGIKSwipeButton/com.github.gratusik.AGIKSwipeButton/images/download.svg) ](https://bintray.com/gratusik/AGIKSwipeButton/com.github.gratusik.AGIKSwipeButton/_latestVersion)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AGIKSwipeButton-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7203)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/gratusik/AGIKButtonSwipe/blob/master/LICENSE)
 [![Min SDK](https://img.shields.io/badge/Min%20SDK-15-e91e63.svg)](https://developer.android.com/about/versions/android-4.0.3)
 
