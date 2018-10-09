@@ -2,7 +2,7 @@
 Swipe button with both direction function for android
 
 [![](https://jitpack.io/v/gratusik/AGIKButtonSwipe.svg)](https://jitpack.io/#gratusik/AGIKButtonSwipe)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AGIKSwipeButton-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7196)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AGIKSwipeButton-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7203)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/gratusik/AGIKButtonSwipe/blob/master/LICENSE)
 [![Min SDK](https://img.shields.io/badge/Min%20SDK-15-e91e63.svg)](https://developer.android.com/about/versions/android-4.0.3)
 
@@ -15,6 +15,20 @@ allprojects {
  repositories {
     jcenter()
     maven { url "https://jitpack.io" }
+ }
+}
+```
+```
+dependencies {
+	        implementation 'com.github.gratusik:AGIKSwipeButton:1.0.1'
+	}
+```
+
+The library is hosted on jCenter, add this to your build.gradle:
+```
+allprojects {
+ repositories {
+    jcenter()
  }
 }
 ```
